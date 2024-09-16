@@ -1,0 +1,133 @@
+{
+  // indentRainbow
+  "indentRainbow.indicatorStyle": "light",
+  "indentRainbow.lightIndicatorStyleLineWidth": 2,
+  "indentRainbow.colors": [
+    "rgba(255,0,0,0.3)", // Red
+    "rgba(255,127,0,0.3)", // Orange
+    "rgba(255,255,0,0.3)", // Yellow
+    "rgba(0,255,0,0.3)", // Green
+    "rgba(0,0,255,0.3)", // Blue
+    "rgba(75,0,130,0.3)", // Indigo
+    "rgba(238,130,238,0.3)" // Violet
+  ],
+  "indentRainbow.colorOnWhiteSpaceOnly": false,
+  // todo-tree
+  "todo-tree.tree.scanAtStartup": false,
+  "todo-tree.general.tags": [
+    "TODO", "todo",
+    "FIX", "FIXME", "fix", "fixme",
+    "BUG","bug",
+    "ALERT","alert",
+    "MARK", "mark",
+    "PIN","pin",
+  ],
+  "todo-tree.general.tagGroups": {
+    "TODO": ["TODO", "todo",],
+    "FIXME": ["FIX", "FIXME", "fix", "fixme"],
+    "BUG" : ["BUG", "bug"],
+    "ALERT" : ["ALERT","alert"],
+    "MARK": ["MARK", "mark"],
+    "PIN":["PIN","pin"],
+  },
+  "todo-tree.highlights.defaultHighlight": {
+    "icon": "alert",
+    "type": "none",
+    "opacity": 50
+  },
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "icon": "checklist",
+      "iconColour":"#5ce65c",
+    },
+    "FIXME" : {
+      "icon": "pencil",
+      "iconColour":"#FCFC57",
+    },
+    "BUG" : {
+      "icon": "bug",
+      "iconColour": "#FF8C00",
+    },
+    "ALERT": {
+      "icon": "alert",
+      "iconColour": "#FF2D00",
+    },
+    "MARK": {
+      "icon": "bookmark",
+      "iconColour": "#82c8e5"
+    },
+    "PIN": {
+      "icon": "pin",
+      "iconColour": "#6395ee"
+    }
+  },
+  "todo-tree.tree.tooltipFormat": "[line: ${filename}:${line}] in ${filepath}",
+  "todo-tree.tree.labelFormat": "${tag:uppercase}${after} [${filename}:${line}]",
+  // better-comments
+  "better-comments.multilineComments": true,
+  "better-comments.tags": [
+    {
+      "tag": "alert",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#5ce65c",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "fixme",
+      "color": "#FCFC57",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "bug",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "mark",
+      "color": "#82c8e5",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "pin",
+      "color": "#6395ee",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ]
+}
